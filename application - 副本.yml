@@ -1,0 +1,35 @@
+spring:
+  profiles:
+    active: dev
+
+---
+# 开发环境
+spring:
+  application:
+    name: abmsc-config-dev
+  profiles: dev
+
+---
+# 测试环境
+spring:
+  application:
+    name: abmsc-config-test
+  profiles: test
+---
+# 测试一下
+# 标注一下
+# xialin
+# master
+# xialin1
+# master
+# xialin1
+# xialin1# master
+# xialin1
+# master
+----------
+# maste
+----------
+# master
+----------
+# master
+# xialin
